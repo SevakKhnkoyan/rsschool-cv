@@ -9,7 +9,7 @@
 ---
 
 ## Profile
-Frontend Engineer with 6+ years of experience building component-based web applications in iGaming and CRM domains. Expert in **React**, **TypeScript**, and **Ant Design**. Strong background in UI/UX design and cross-functional collaboration. Transitioned from business and customer experience roles to software engineering, providing unique insight into user-centered product development.
+Frontend Engineer with 3+ years of experience building component-based web applications in iGaming and CRM domains. Expert in **React**, **TypeScript**, and **Ant Design**. Strong background in UI/UX design and cross-functional collaboration. Transitioned from business and customer experience roles to software engineering, providing unique insight into user-centered product development.
 
 ---
 
