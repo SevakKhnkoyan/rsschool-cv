@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CV of Sevak Khnkoyan — Frontend Engineer (React, TypeScript, Ant Design).">
+  <title>Sevak Khnkoyan — CV</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <div class="brand">
+        <h1 class="name">Sevak Khnkoyan</h1>
+        <p class="role">Frontend Engineer</p>
+      </div>
+
+      <nav class="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contacts">Contacts</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#certificates">Certificates</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="about" class="section about">
+      <div class="container about-grid">
+        <figure class="avatar">
+          <img src="assets/avatar.jpg" alt="Portrait photo of Sevak Khnkoyan" width="160" height="160" loading="lazy">
+        </figure>
+
+        <div>
+          <h2>About</h2>
+          <p>
+            Frontend Engineer with 3+ years of experience building component‑based web applications in iGaming and CRM.
+            Expert in <strong>React</strong>, <strong>TypeScript</strong>, and <strong>Ant Design</strong>.
+            Strong UI/UX background and cross‑functional collaboration. Transitioned from business &amp; CX roles to
+            software engineering, providing a user‑centered product mindset.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacts" class="section">
+      <div class="container">
+        <h2>Contacts</h2>
+        <address>
+          <ul class="list">
+            <li>Email: <a href="mailto:sevakkhnkoyan@gmail.com">sevakkhnkoyan@gmail.com</a></li>
+            <li>Phone: <a href="tel:+37491566615">+374&nbsp;91&nbsp;56&nbsp;66&nbsp;15</a></li>
+            <li>Location: Yerevan, Armenia</li>
+            <li>GitHub: <a href="https://github.com/SevakKhnkoyan" target="_blank" rel="noopener noreferrer">github.com/SevakKhnkoyan</a></li>
+            <li>LinkedIn: <a href="https://linkedin.com/in/sevak27" target="_blank" rel="noopener noreferrer">linkedin.com/in/sevak27</a></li>
+          </ul>
+        </address>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <h2>Skills</h2>
+        <ul class="list two-col">
+          <li>JavaScript (ES6+), TypeScript</li>
+          <li>React, HTML5, CSS3</li>
+          <li>Redux‑Saga, Redux Toolkit, RTK Query</li>
+          <li>Ant Design, Tailwind CSS, WordPress</li>
+          <li>Git, Jira, Agile/Scrum</li>
+          <li>UI/UX collaboration</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <ul class="list">
+          <li>
+            <strong>Async Race (SPA)</strong> — RTK Query, Redux, TypeScript.
+            Source: <a href="https://github.com/SevakKhnkoyan/async-race-app" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </li>
+          <li>
+            <strong>RS School CV</strong> — GitHub Pages deployment.
+            Deploy: <a href="https://sevakkhnkoyan.github.io/rsschool-cv/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>
+          </li>
+        </ul>
+
+        <h3 class="subtle">Code Example</h3>
+        <pre class="code"><code>
+/** Debounce utility (TypeScript) */
+export function debounce&lt;T extends (...args: any[]) =&gt; void&gt;(fn: T, wait = 300) {
+  let timeout: number | undefined;
+  return (...args: Parameters&lt;T&gt;) =&gt; {
+    if (timeout) window.clearTimeout(timeout);
+    timeout = window.setTimeout(() =&gt; fn(...args), wait);
+  };
+}
+        </code></pre>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="container">
+        <h2>Experience</h2>
+
+        <article class="job">
+          <header>
+            <h3>Software Engineer (Frontend) — Digitain, CRM Platform</h3>
+            <p class="meta"><time datetime="2022-10">Oct 2022</time> — Present</p>
+          </header>
+          <ul class="list">
+            <li>Developed core marketing pages &amp; communication features from scratch.</li>
+            <li>Implemented UI/UX improvements; fixed bugs &amp; performance issues.</li>
+            <li>Led refactoring for maintainability and component re‑use.</li>
+            <li>Collaborated with backend &amp; QA for robust API integration and testing.</li>
+          </ul>
+        </article>
+
+        <article class="job">
+          <header>
+            <h3>Project Coordinator &amp; UI/UX Developer — Digitain, Quality &amp; Training</h3>
+            <p class="meta"><time datetime="2018-04">Apr 2018</time> — <time datetime="2022-10">Oct 2022</time></p>
+          </header>
+          <ul class="list">
+            <li>Built 2 marketing websites &amp; 4 knowledge bases in WordPress (40+ plugins).</li>
+            <li>Customized pages with HTML, CSS, and JavaScript.</li>
+            <li>Trained &amp; evaluated support teams using IT tools and dashboards.</li>
+          </ul>
+        </article>
+
+        <article class="job">
+          <header>
+            <h3>CX Specialist, Analyst, Manager — Beeline Armenia</h3>
+            <p class="meta"><time datetime="2014-07">Jul 2014</time> — <time datetime="2018-04">Apr 2018</time></p>
+          </header>
+          <ul class="list">
+            <li>Implemented Net Promoter System (NPS, SaaS).</li>
+            <li>Co‑coordinated the revamp of the Beeline.am website.</li>
+            <li>Core stakeholder in the “My Beeline Armenia” mobile app initiative.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="container">
+        <h2>Education</h2>
+        <ul class="list">
+          <li><strong>Master’s degree in Economics</strong> — Russian‑Armenian University (2015–2017)</li>
+        </ul>
+
+        <h3 class="subtle">Languages</h3>
+        <ul class="list">
+          <li>Armenian, Russian — Native</li>
+          <li>English — Full Professional Proficiency</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="certificates" class="section">
+      <div class="container">
+        <h2>Certificates</h2>
+        <ul class="list">
+          <li>Advanced JavaScript &amp; React — Digitain Academy (09/2021–09/2022)</li>
+          <li>Frontend Basics — Code School (06/2019–10/2019)</li>
+          <li>IT Project Management — Business Support Centre (07/2017–09/2017)</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>
+        <span>© <time datetime="2025">2025</time> Sevak Khnkoyan</span>
+        <span class="sep">•</span>
+        <a href="https://github.com/SevakKhnkoyan" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </p>
+      <p class="rss">
+        <a href="https://rs.school/courses/javascript" target="_blank" rel="noopener noreferrer">
+          <img src="https://rs.school/_next/static/media/rss-logo.c19ce1b4.svg" alt="RS School JavaScript Course Logo" width="90" height="32">
+        </a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
